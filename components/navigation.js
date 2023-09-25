@@ -1,8 +1,8 @@
 import Link from "next/link";
 export default function Navigation() {
   return (
-    <nav>
-      <ul className="flex flex-row justify-between">
+    <nav className=" py-4 bg-red-400 w-full max-w-4xl ">
+      <ul className=" flex justify-between max-w-4xl">
         <li>
           <Link href="#home">Home</Link>
         </li>
